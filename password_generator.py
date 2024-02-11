@@ -19,6 +19,8 @@ def generate_password(length):
 
 
 def strength_checker(password):
+    """This function checks if the generated password is strong enough"""
+
     special_chars = string.punctuation
 
     has_uppercase = False
